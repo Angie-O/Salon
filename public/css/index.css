@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC");
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+body,
+html {
+    font-family: 'Noto Serif SC', serif;
+    color: black;
+    background-color: rgb(153, 153, 153);
+    background-image: linear-gradient(90deg, #e01a1a 0%, #b1c40b 100%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header {
+    padding: 1em;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#header p {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    margin: auto;
+    font-size: 30px;
+}
